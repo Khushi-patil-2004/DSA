@@ -1,3 +1,4 @@
+//Pattern is consistent: > < > < > ...
 #include<iostream>
 #include<algorithm> 
 using namespace std;
