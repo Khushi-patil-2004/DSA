@@ -16,14 +16,14 @@ bool isAlphaNum(string str)
    }
    return  false;
 }
-string toLowercase(string str)
-{
-    for (int i = 0; i < str.length(); i++)
-    {
-        str[i] = tolower(str[i]); 
-    }
-    return str;
-}
+// string toLowercase(string str)
+// {
+//     for (int i = 0; i < str.length(); i++)
+//     {
+//         str[i] = tolower(str[i]); 
+//     }
+//     return str;
+// }
 bool isPalindrome(string str)
 {
     int start = 0;
