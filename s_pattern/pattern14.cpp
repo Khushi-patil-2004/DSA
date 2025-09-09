@@ -2,7 +2,7 @@
 using namespace std;
 void pattern(int n)
 {
-for(int i=1;i<=n;i++)
+for(int i=0;i<n;i++)
 {
     for(char ch = 'A';ch <=('A'+ i);ch++)
     {
@@ -20,9 +20,10 @@ int main()
     pattern(n);
     return 0;
 }
+
 output:
+A
 AB
 ABC
 ABCD
 ABCDE
-ABCDEF
